@@ -38,7 +38,7 @@ const Home = () => {
             <p>Sci-Fi</p>
           </div>
           <div className="movie-card">
-            <img src="../img/rapidoyfurioso" alt="Movie 3" />
+            <img src="../img/rapidoyfurioso.png" alt="Movie 3" />
             <p>Fast and Furious</p>
             <p>Action</p>
           </div>
@@ -57,12 +57,12 @@ const Home = () => {
         </div>
         <div className="movie-slider">
           <div className="movie-card">
-            <img src="../img/furius.png" alt="Coming Soon 1" />
+            <img src="../img/madmax.png" alt="Coming Soon 1" />
             <p>Furious 10</p>
             <p>Action</p>
           </div>
           <div className="movie-card">
-            <img src="../img/furius.png" alt="Coming Soon 2" />
+            <img src="../img/jurassic.png" alt="Coming Soon 2" />
             <p>Guardians of the Galaxy</p>
             <p>Action</p>
           </div>
