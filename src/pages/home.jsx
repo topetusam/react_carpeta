@@ -4,7 +4,15 @@ import React from 'react';
 const Home = () => {
   return (
     <div className="home-container">
-      <h1 className="home-title">Películas en Cartelera</h1>
+      <div className="encabezado">
+      <img src="../public/img/perfil.png"/>
+      <h3>Hi, Ferrucio Tuccine!</h3>
+      
+      <h2>Let's watch movie together</h2>
+        <img src="../public/img/campanita.png"/>
+      </div>
+      <div className="logo">
+      </div>
       <ul className="movie-list">
         {/* Aquí puedes mapear las películas */}
         <li className="movie-item">

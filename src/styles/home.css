@@ -2,6 +2,16 @@
     padding: 20px;
     background-color: #f5f5f5;
   }
+
+.encabezado{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 1.2em;
+
+}
+
   
   .home-title {
     font-size: 2em;
