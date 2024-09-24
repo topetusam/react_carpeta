@@ -1,53 +1,132 @@
+/* Estilos generales */
 .home-container {
-    padding: 20px;
-    background-color: #f5f5f5;
-  }
-
-.encabezado{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  font-size: 1.2em;
-
+  padding: 20px;
+  background-color: #111;
+  color: white;
+  border-radius: 12px;
 }
 
-  
-  .home-title {
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .movie-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .movie-item {
-    border: 1px solid #ddd;
-    padding: 10px;
-    border-radius: 8px;
-    background-color: white;
-    transition: transform 0.3s ease;
-  }
-  
-  .movie-item:hover {
-    transform: scale(1.05);
-  }
-  
-  .movie-title {
-    font-size: 1.2em;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .movie-info {
-    font-size: 0.9em;
-    color: #666;
-  }
-  
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user-text h3, .user-text h2 {
+  margin: 0;
+  color: white;
+}
+
+.user-text h2 {
+  font-weight: bold;
+}
+
+.notification-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.notification-btn img {
+  width: 24px;
+  height: 24px;
+}
+
+.search-bar {
+  margin-top: 20px;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #333;
+  color: white;
+  font-size: 16px;
+}
+
+.section-header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.section-header p {
+  font-weight: bold;
+}
+
+.section-header a {
+  color: red;
+  text-decoration: none;
+}
+
+.movie-slider {
+  display: flex;
+  overflow-x: scroll;
+  gap: 10px;
+  margin-top: 10px;
+  padding-bottom: 20px;  /* Espacio para hacer scroll sin cortar contenido */
+}
+
+.movie-slider::-webkit-scrollbar {
+  display: none;  /* Oculta la barra de desplazamiento */
+}
+
+.movie-card {
+  flex: 0 0 auto;
+  width: 150px;
+  text-align: center;
+}
+
+.movie-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.movie-card p {
+  margin: 5px 0;
+}
+
+.bottom-nav {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #222;
+  padding: 10px;
+  border-radius: 12px 12px 0 0;
+}
+
+.nav-item {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-item img {
+  width: 24px;
+  height: 24px;
+}
+
+.nav-item p {
+  margin: 5px 0 0;
+  font-size: 12px;
+  color: #888;
+}
+
+.nav-item.active p {
+  color: red;
+}
