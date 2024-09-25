@@ -1,0 +1,122 @@
+/* OrderSummary.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.order-summary-container {
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.back-arrow, .more-options {
+    cursor: pointer;
+}
+
+.movie-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.movie-poster {
+    width: 80px;
+    height: 120px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.movie-details {
+    flex-grow: 1;
+}
+
+.movie-details h2 {
+    color: red;
+    font-size: 18px;
+    margin: 0;
+}
+
+.movie-details p {
+    margin: 5px 0;
+}
+
+.genre, .cinema-name, .showtime {
+    color: #bbb;
+}
+
+.order-info {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #555;
+    padding-bottom: 20px;
+}
+
+.order-info p {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.payment-method {
+    margin-bottom: 20px;
+}
+
+.payment-method p {
+    margin: 0 0 10px 0;
+}
+
+.card-info {
+    display: flex;
+    align-items: center;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.card-logo {
+    width: 40px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+.card-details {
+    flex-grow: 1;
+}
+
+.card-selector {
+    color: red;
+    font-size: 18px;
+}
+
+.payment-timer {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.payment-timer span {
+    color: red;
+    font-weight: bold;
+}
+
+.buy-ticket-button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 10px;
+}

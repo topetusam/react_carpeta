@@ -1,0 +1,137 @@
+/* SeatSelection.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.back-arrow, .more-options {
+    cursor: pointer;
+}
+
+.screen-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.screen {
+    height: 10px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: #ff0000;
+    border-radius: 10px;
+}
+
+.seat-map {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.seat-row {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.seat-row span {
+    margin-right: 10px;
+    width: 20px;
+}
+
+.seat {
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+    background-color: #444;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.seat.available {
+    background-color: #444;
+}
+
+.seat.reserved {
+    background-color: #555;
+}
+
+.seat.selected {
+    background-color: #ff0000;
+}
+
+.seat-legend {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+}
+
+.legend-item .seat {
+    margin-right: 10px;
+}
+
+.date-time-selection {
+    margin: 20px 0;
+}
+
+.date-row, .time-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.date-item, .time-item {
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.date-item.selected, .time-item.selected {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+.price-section {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.price {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.buy-ticket-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+}

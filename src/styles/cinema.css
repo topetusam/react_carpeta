@@ -1,0 +1,106 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+.container {
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.back-arrow, .more-options {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.movie-image {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.movie-image img {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #007bff;
+}
+
+.movie-info {
+    text-align: center;
+}
+
+.movie-info h1 {
+    font-size: 24px;
+}
+
+.movie-info p {
+    font-size: 16px;
+}
+
+.trailer-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.movie-description {
+    margin: 20px 0;
+}
+
+.cast-section {
+    margin: 20px 0;
+}
+
+.cast-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cast-member {
+    text-align: center;
+}
+
+.cast-member img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.cinema-section {
+    margin: 20px 0;
+}
+
+.cinema-list {
+    margin-top: 10px;
+}
+
+.cinema-option {
+    padding: 10px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.cinema-option.selected {
+    border: 2px solid #ff0000;
+}
+
+.book-now-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    width: 100%;
+    cursor: pointer;
+}
