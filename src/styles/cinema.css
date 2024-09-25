@@ -16,6 +16,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-direction: row;
 }
 
 .back-arrow, .more-options {
@@ -78,6 +79,7 @@ body {
 
 .cinema-section {
     margin: 20px 0;
+    justify-content: space-between;
 }
 
 .cinema-list {

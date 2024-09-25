@@ -15,11 +15,11 @@ const Home = () => {
             <img src="../img/campanita.png" alt="Notification" />
           </button>
         </div>
+      </div>
 
         <div className="search-bar">
           <input type="text" placeholder="Search movie, cinema, genre..." />
         </div>
-      </div>
 
       <div className="now-playing-section">
         <div className="section-header">

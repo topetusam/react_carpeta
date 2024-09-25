@@ -14,7 +14,7 @@ const cinema = () => {
 
             {/* Movie Image */}
             <div className="movie-image">
-                <img src="../img/puss_in_boots.jpg" alt="Puss in Boots" />
+                <img src="../img/portadagatoconbotas.png" alt="Puss in Boots" />
             </div>
 
             {/* Movie Title and Trailer Button */}
@@ -36,17 +36,17 @@ const cinema = () => {
                 <h2>Cast</h2>
                 <div className="cast-list">
                     <div className="cast-member">
-                        <img src="../img/antonio_banderas.jpg" alt="Antonio Banderas" />
+                        <img src="../img/perfi1.png" alt="Antonio Banderas" />
                         <p>Antonio Banderas</p>
                         <span>Puss in Boots</span>
                     </div>
                     <div className="cast-member">
-                        <img src="../img/salma_hayek.jpg" alt="Salma Hayek" />
+                        <img src="../img/perfil2.png" alt="Salma Hayek" />
                         <p>Salma Hayek</p>
                         <span>Kitty Softpaws</span>
                     </div>
                     <div className="cast-member">
-                        <img src="../img/harvey_guillen.jpg" alt="Harvey Guillén" />
+                        <img src="../img/perfil3.png" alt="Harvey Guillén" />
                         <p>Harvey Guillén</p>
                         <span>Perro</span>
                     </div>
@@ -59,12 +59,14 @@ const cinema = () => {
                 <div className="cinema-list">
                     <div className="cinema-option selected">
                         <div className="cinema-info">
+                        <img src="../img/atrium.png" alt="Harvey Guillén" />
                             <h3>Atrium Cinemas</h3>
                             <p>Staff Lines, Saddar, Karachi</p>
                         </div>
                     </div>
                     <div className="cinema-option">
                         <div className="cinema-info">
+                        <img src="../img/neuplex.png" alt="Harvey Guillén" />
                             <h3>Nueplex</h3>
                             <p>Khayaban - e Shaheen, Dha Phase 8</p>
                         </div>

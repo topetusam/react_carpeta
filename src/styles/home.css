@@ -9,12 +9,14 @@
 .header {
   display: flex;
   flex-direction: column;
+  
 }
 
 .user-info {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  column-gap: 25px;
 }
 
 .profile-pic {
@@ -24,12 +26,19 @@
 }
 
 .user-text h3, .user-text h2 {
-  margin: 0;
+  margin: 0px;
   color: white;
 }
 
 .user-text h2 {
   font-weight: bold;
+  white-space: nowrap; 
+  font-size: 17px;
+}
+
+.user-text h3 {
+  font-weight: bold;
+  font-size: 12px;
 }
 
 .notification-btn {
@@ -48,7 +57,7 @@
 }
 
 .search-bar input {
-  width: 100%;
+  width: 90%;
   padding: 10px;
   border-radius: 10px;
   border: none;

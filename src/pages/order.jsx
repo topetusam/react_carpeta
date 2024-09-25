@@ -14,7 +14,7 @@ const order = () => {
             {/* Movie Info */}
             <div className="movie-info">
                 <img 
-                    src="https://example.com/image-url.jpg" // Reemplaza con la URL de la imagen
+                    src="../img/ordergatoconbotas.png" 
                     alt="Puss In Boots The Last Wish" 
                     className="movie-poster" 
                 />
@@ -39,7 +39,7 @@ const order = () => {
                 <p>Payment method</p>
                 <div className="card-info">
                     <img 
-                        src="https://example.com/mastercard-logo.jpg" // Reemplaza con la URL del logo de la tarjeta
+                        src="../img/Mastercard.png" // Reemplaza con la URL del logo de la tarjeta
                         alt="MasterCard" 
                         className="card-logo"
                     />
@@ -62,4 +62,4 @@ const order = () => {
     );
 };
 
-export default order; // Asegúrate de tener esta línea
+export default order; 

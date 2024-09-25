@@ -1,0 +1,111 @@
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.ticket-container {
+    max-width: 350px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.ticket-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #121212;
+}
+
+.back-arrow, .more-options {
+    cursor: pointer;
+}
+
+.ticket-image img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.ticket-content {
+    background-color: #2c2c2c;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.ticket-movie-title {
+    text-align: center;
+    margin-top: 15px;
+    color: #000000;
+}
+
+.ticket-movie-title h1 {
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.ticket-movie-title p {
+    color: #000000;
+    font-size: 0.9em;
+    margin: 5px 0 20px;
+}
+
+.ticket-info {
+    margin-bottom: 20px;
+}
+
+.cinema-info {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.cinema-info h2 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+.cinema-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cinema-name h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.cinema-name img {
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+.details {
+    border-top: 1px solid #333;
+    padding-top: 10px;
+    color: #000000;
+}
+
+.detail {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+}
+
+.barcode {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.barcode img {
+    width: 100%;
+    height: auto;
+}
